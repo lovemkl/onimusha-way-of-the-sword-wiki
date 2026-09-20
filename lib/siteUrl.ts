@@ -1,6 +1,6 @@
 /** Canonical production origin — never use localhost in metadata/sitemap. */
 export const PRODUCTION_SITE_URL =
-  "https://onimusha-way-of-the-sword-wiki-lovemkl.vercel.app";
+  "https://onimusha-way-of-the-sword-wiki-tau.vercel.app";
 
 export function siteUrl(): string {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");

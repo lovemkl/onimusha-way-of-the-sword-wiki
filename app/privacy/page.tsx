@@ -24,6 +24,10 @@ export default function PrivacyPage() {
         Steam images and store text are loaded from Steam&apos;s public CDN / APIs
         under Valve&apos;s terms. Game trademarks belong to their respective owners.
       </p>
+    
+      <p>
+        This site may show Adsterra Native Banner ads (no Popunder/Smartlink).
+      </p>
     </article>
   );
 }

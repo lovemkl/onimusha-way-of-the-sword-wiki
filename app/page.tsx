@@ -3,6 +3,7 @@ import Link from "next/link";
 import { GuideCard } from "@/components/GuideCard";
 import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 import { PC_REQUIREMENTS, SCREENSHOTS, SITE, YOUTUBE } from "@/lib/site";
+import { AdsterraNative } from "@/components/AdsterraNative";
 
 const STATS = [
   `Released ${SITE.releaseDate}`,
@@ -131,6 +132,8 @@ export default function HomePage() {
           title="Onimusha: Way of the Sword — Launch Trailer"
         />
       </section>
+
+      <AdsterraNative />
 
       <section className="space-y-4">
         <h2 className="text-2xl font-semibold text-red-50">Screenshots</h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { WeaponStanceLoadout } from "@/components/WeaponStanceLoadout";
+import { AdsterraNative } from "@/components/AdsterraNative";
 
 export const metadata: Metadata = {
   title: "Weapon & Stance Loadout Planner",
@@ -37,6 +38,8 @@ export default function WeaponStanceLoadoutPage() {
           </Link>
         </p>
       </header>
+
+      <AdsterraNative />
       <WeaponStanceLoadout />
     </article>
   );

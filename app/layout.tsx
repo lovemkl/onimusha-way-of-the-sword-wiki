@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   // Google Search Console verification placeholder (empty until verified)
-  verification: { google: "" },
+  verification: { google: "CMEu9ebYVvHXLjZcv2qdXQnGfRRpmemTOIu9TAg2YTc" },
 };
 
 export default function RootLayout({

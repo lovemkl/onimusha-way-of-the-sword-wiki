@@ -122,6 +122,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <AdsterraNative />
+
       <section className="space-y-4">
         <h2 className="text-2xl font-semibold text-red-50">Launch trailer</h2>
         <p className="text-sm text-zinc-400">
@@ -133,7 +135,6 @@ export default function HomePage() {
         />
       </section>
 
-      <AdsterraNative />
 
       <section className="space-y-4">
         <h2 className="text-2xl font-semibold text-red-50">Screenshots</h2>

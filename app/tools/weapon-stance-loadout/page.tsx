@@ -39,8 +39,8 @@ export default function WeaponStanceLoadoutPage() {
         </p>
       </header>
 
-      <AdsterraNative />
       <WeaponStanceLoadout />
+      <AdsterraNative />
     </article>
   );
 }

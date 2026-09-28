@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { AdsterraNative } from "@/components/AdsterraNative";
 import { PC_REQUIREMENTS, SCREENSHOTS, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -59,6 +60,8 @@ export default function BeginnerGuidePage() {
           </li>
         </ul>
       </section>
+
+      <AdsterraNative />
 
       <section className="space-y-3">
         <h2 className="text-xl font-semibold text-red-100">

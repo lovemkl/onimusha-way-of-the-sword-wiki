@@ -38,6 +38,12 @@ export function Footer() {
           <Link href="/guides/beginner" className="hover:text-red-300">
             Beginner
           </Link>
+          <Link href="/guides/system-requirements" className="hover:text-red-300">
+            PC specs
+          </Link>
+          <Link href="/guides/editions-and-charms" className="hover:text-red-300">
+            Editions
+          </Link>
           <Link href="/faq" className="hover:text-red-300">
             FAQ
           </Link>

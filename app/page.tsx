@@ -34,6 +34,18 @@ const CARDS = [
     image: SCREENSHOTS[0],
   },
   {
+    href: "/guides/system-requirements",
+    title: "System requirements",
+    body: "Steam PC min/rec for Onimusha: Way of the Sword — Windows 11, SSD notes, no invented FPS tiers.",
+    image: SCREENSHOTS[3],
+  },
+  {
+    href: "/guides/editions-and-charms",
+    title: "Editions & charms",
+    body: "Deluxe, Premium Deluxe, Early Adopter charms and sword appearances — Steam names only.",
+    image: SCREENSHOTS[4],
+  },
+  {
     href: "/faq",
     title: "FAQ",
     body: "Release date, platforms, charms vs cosmetics, what this wiki will not invent, and official links.",

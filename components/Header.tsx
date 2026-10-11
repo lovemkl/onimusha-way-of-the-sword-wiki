@@ -4,6 +4,8 @@ import { SITE } from "@/lib/site";
 const NAV = [
   { href: "/tools/weapon-stance-loadout", label: "Loadout" },
   { href: "/guides/beginner", label: "Beginner" },
+  { href: "/guides/system-requirements", label: "PC specs" },
+  { href: "/guides/editions-and-charms", label: "Editions" },
   { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },
 ] as const;

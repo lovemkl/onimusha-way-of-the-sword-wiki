@@ -7,13 +7,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/",
     "/tools/weapon-stance-loadout",
     "/guides/beginner",
+    "/guides/system-requirements",
+    "/guides/editions-and-charms",
     "/faq",
     "/about",
     "/privacy",
   ];
   return paths.map((path) => ({
     url: path === "/" ? `${base}/` : `${base}${path}`,
-    lastModified: new Date("2026-09-20"),
+    lastModified: new Date("2026-10-11"),
     changeFrequency: path.startsWith("/tools") ? "weekly" : "monthly",
     priority:
       path === "/"

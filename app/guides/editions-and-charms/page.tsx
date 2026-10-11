@@ -5,7 +5,7 @@ import { AdsterraNative } from "@/components/AdsterraNative";
 import { SCREENSHOTS, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Onimusha Editions, Charms & Early Adopter Bonus Wiki",
+  title: { absolute: "Onimusha Editions, Charms & Early Adopter Bonus Wiki" },
   description: "Steam-listed Onimusha: Way of the Sword Deluxe, Premium Deluxe, Early Adopter charms and sword appearances. Cosmetic vs charm notes — no invented combat stats.",
   robots: { index: true, follow: true },
   alternates: { canonical: "/guides/editions-and-charms" },

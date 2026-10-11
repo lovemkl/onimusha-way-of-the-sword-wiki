@@ -5,7 +5,7 @@ import { AdsterraNative } from "@/components/AdsterraNative";
 import { PC_REQUIREMENTS, SCREENSHOTS, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Onimusha Way of the Sword — PC System Requirements",
+  title: { absolute: "Onimusha Way of the Sword — PC System Requirements" },
   description: "Steam PC system requirements for Onimusha: Way of the Sword (app 2638890): Windows 11 minimum and recommended CPU, GPU, RAM, DirectX 12, and SSD notes.",
   robots: { index: true, follow: true },
   alternates: { canonical: "/guides/system-requirements" },

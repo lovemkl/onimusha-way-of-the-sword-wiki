@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/guides/beginner",
     "/guides/system-requirements",
     "/guides/editions-and-charms",
+    "/guides/combat",
+    "/news",
     "/faq",
     "/about",
     "/privacy",
